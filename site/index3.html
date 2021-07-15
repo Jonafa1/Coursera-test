@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<style>
+	p {
+		width: 50px;
+		height: 50px;
+		border: 1px solid black;
+		margin-bottom: 10px;
+		width: 90%;
+		height: 150px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#p1 {
+		background-color: #fad018;
+	}
+
+	#p2 {
+		background-color: #A52A2A;
+	}
+
+	#p3 {
+		background-color: #5F9EA0;
+		position: relative;
+			}
+
+	#p4 {
+		background-color: #FF7F50;
+	}
+
+#cont {
+	background-color: #FFFFFF;
+	position: relative;
+	top: 100px;
+}
+
+@media (min-width: 950px) and (max-width: 1199px) {
+	#p1, #p2, #p3, #p4 {
+		float: left;
+	}
+	#p1 {
+		width: 25%;
+	}
+	#p2 {
+		width: 25%;
+	}
+	#p3 {
+		width: 25%;
+	}
+	#p4 {
+		width: 25%
+	}
+}
+
+</style>
+<head>
+	<title></title>
+</head>
+
+<div id="cont">
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+
+</div>
+
+</html>

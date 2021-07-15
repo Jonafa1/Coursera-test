@@ -1,0 +1,63 @@
+h1 {
+	text-align: center;
+	font-family: fantasy;
+	border: dashed;
+	border-width: 2px;
+	letter-spacing: 3px;
+
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fad018;
+	font-family: arial;
+	margin-top: 50px;
+}
+
+div > div {
+	font-size: 16px;
+	background-color: #fad018
+
+}
+img {
+	size: 100px
+}
+
+#mrg6 {
+	padding: 10px;
+	border: 4px solid black;
+	border-spacing: 250px;
+	margin: 25px 50px 50px 100px;
+	width: 500px;
+	margin-bottom: 50px;
+	height: 40px;
+	overflow: auto;
+}
+
+#p1 {
+	background-color: #fad017;
+}
+
+#messi {
+
+}
+
+#snap {
+	background-color: #DEB887;
+}
+
+p {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+float: center;
+
+}
+
+@media (min-width: 500px;) {
+#messi {
+	width: 600px;
+	height: 600px;
+}	
+}
