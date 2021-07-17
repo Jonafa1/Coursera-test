@@ -1,17 +1,88 @@
 
 h1 {
 	text-align: center;
-	color: red;
+	font-family: Tahoma;
+	margin-bottom: 20px;
 }
 
-#p1 {
-background-color: red;
+p {
+		border: 2px solid black;
+		padding: 30px 10px 10px 10px;
+		background-color: grey;
 }
 
-#p2 {
+@media (min-width: 992px) {
+	#p1, #p2, #p3 {
+		float: left;
+		margin: 10px;
+		position: relative;
+		left: 3.2%;
+	}
+
+	#p1 {
+		width: 27.5%;
+
+	}
+	#p2 {
+		width: 27.5%;
+
+	}
+	#p3 {
+		width: 27.5%;
+
+	}
 
 }
 
-#p3 {
+@media (min-width: 768px) and (max-width: 991px) {
+	#p1, #p2, #p3 {
+		float: left;
+		margin: 10px;
+		box-sizing: border-box;
+	}
 
+	#p1 {
+		width: 40%;
+		position: relative;
+
+	}
+	#p2 {
+		width: 40%;
+			}
+
+	#p3 {
+		width: 82.5%;
+		clear: left;
+		
+	}
+	#container {
+	position: relative;
+	left: 70px;
+}
+
+}
+
+@media (max-width: 767px) {
+	#p1, #p2, #p3 {
+		height: 80px;
+		margin: 20px;
+
+	}
+
+	#p1 {
+
+	}
+	#p2 {
+
+	}
+	#p3 {
+		
+	}
+
+}
+
+h2 {
+	position: relative;
+	border: 2px solid black;
+	display: inline;
 }
