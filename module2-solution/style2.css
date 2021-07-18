@@ -1,3 +1,30 @@
+.title1 {
+		border: 0.5px solid black;
+		padding: 5px;
+		background-color: pink;
+		font-weight: bold;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.title2 {
+		border: 0.5px solid black;
+		padding: 5px;
+		background-color: pink;
+		font-weight: bold;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.title3 {
+		border: 0.5px solid black;
+		padding: 5px;
+		background-color: pink;
+		font-weight: bold;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
 
 h1 {
 	text-align: center;
@@ -7,7 +34,7 @@ h1 {
 
 p {
 		border: 2px solid black;
-		padding: 30px 10px 10px 10px;
+		padding: 35px 10px 10px 10px;
 		background-color: grey;
 }
 
@@ -21,7 +48,6 @@ p {
 
 	#p1 {
 		width: 27.5%;
-
 	}
 	#p2 {
 		width: 27.5%;
@@ -31,15 +57,19 @@ p {
 		width: 27.5%;
 
 	}
-
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) 
+
+	{
 	#p1, #p2, #p3 {
 		float: left;
 		margin: 10px;
 		box-sizing: border-box;
+		position: relative;
+		left: 8%;
 	}
+
 
 	#p1 {
 		width: 40%;
@@ -55,10 +85,8 @@ p {
 		clear: left;
 		
 	}
-	#container {
-	position: relative;
-	left: 70px;
- }
+
+	
 
 }
 
@@ -66,9 +94,10 @@ p {
 	#p1, #p2, #p3 {
 		height: 88px;
 		margin: 20px;
+		position: relative;
 
 	}
-
+	
 	#p1 {
 
 	}
@@ -79,10 +108,4 @@ p {
 		
 	}
 
-}
-
-h2 {
-	position: relative;
-	border: 2px solid black;
-	display: inline;
 }
