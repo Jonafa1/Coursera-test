@@ -1,0 +1,41 @@
+
+#header-nav {
+	background-color: #808080;
+	border-radius: 0;
+	border: 2px solid black;
+}
+.navbar-brand h1 {
+	font-family: 'Rajdhani', sans-serif;
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 10px 10px 10px 10px;
+	line-height: 0.75;
+	text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	text-align: left;
+}
+.container {
+	height: 75px;
+}
+
+h2 {
+	font-family: 'Rajdhani', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+#container {
+	margin-top: 40px;
+	height: 1000px;
+	background-color: #808080;
+}
+
+.container2 {
+	margin-right: 50px;
+	margin-left: 50px;
+}
