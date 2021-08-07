@@ -35,8 +35,39 @@ h2 {
 	background-color: #808080;
 }
 
-.container2 {
-	margin-right: 50px;
-	margin-left: 50px;
+li a {
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	font-weight: bold;
 	font-size: 20px;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#section-1 {
+	background-color: #DA291CFF;
+}
+
+#section-2 {
+	background-color: #56A8CBFF;
+}
+
+#section-3 {
+	background-color: #53A567FF;
+}
+
+div section {
+	margin: 10px;
+	padding: 10px;
+}
+
+text > h3 { 
+	margin-bottom: 15px: 
+}
+
+p {
+	font-size: 18px;
 }
